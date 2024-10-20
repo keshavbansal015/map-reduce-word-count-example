@@ -14,7 +14,17 @@ output: <word, count>
 
 #### Run the following commands to run the project:
 ##### Make sure to delete the "output" directory before you run it
-`shell
+
+For Java example, cd into the WordCount-Java directory and run these commands:
+```
 mvn clean install
-hadoop jar target/WordCount-1.0-SNAPSHOT.jar Driver input/sample1.txt output
-`
+hadoop jar target/WordCount-1.0-SNAPSHOT.jar Driver ../input/sample1.txt output
+````
+
+For Python example, cd into the WordCount-Python directory and run this:
+```
+pip install mrjob
+python WordCount.py ../input/sample2.txt > output.txt
+```
+
+- You can experiment with changing the input file.
