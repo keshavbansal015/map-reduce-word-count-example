@@ -1,0 +1,43 @@
+# Ignore Java build files
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven and Gradle build directories
+/target/
+/build/
+
+# Ignore IntelliJ IDEA project files
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# Eclipse IDE files
+.project
+.classpath
+.settings/
+
+# Hadoop specific
+hadoop-*.log
+hadoop-*.out
+hadoop-*.pid
+
+# Log files
+*.log
+*.out
+*.err
+
+# Ignore OS specific files
+.DS_Store
+Thumbs.db
+
+# Ignore user environment files
+*.swp
+*.swo
+*~
+
+# Ignore coverage files
+.coverage
+*.lcov
